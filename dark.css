@@ -1,0 +1,14 @@
+body.dark {
+    background-color: hsl(230, 17%, 14%);
+    color: #fff;
+}
+
+.dark .header,
+.dark .header .slider::before {
+    background-color: hsl(232, 19%, 15%);
+}
+
+.dark .main-card,
+.dark .progress-card {
+    background-color: hsl(228, 28%, 20%);
+}
