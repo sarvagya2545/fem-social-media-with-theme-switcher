@@ -12,3 +12,11 @@ body.dark {
 .dark .progress-card {
     background-color: hsl(228, 28%, 20%);
 }
+
+
+/* HOVER STATES */
+
+.dark .main-card:hover,
+.dark .progress-card:hover {
+    background-color: #333a56;
+}
