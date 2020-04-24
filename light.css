@@ -207,10 +207,15 @@ hr {
 .main-card:hover,
 .progress-card:hover {
     background-color: #e1e3f0;
+    cursor: pointer;
 }
 
 .toggle:hover+span {
     background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+.toggle:hover {
+    cursor: pointer;
 }
 
 

@@ -19,4 +19,5 @@ body.dark {
 .dark .main-card:hover,
 .dark .progress-card:hover {
     background-color: #333a56;
+    cursor: pointer;
 }
