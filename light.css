@@ -111,6 +111,7 @@ hr {
 .main-card,
 .progress-card {
     background-color: hsl(227, 47%, 96%);
+    z-index: 1000;
 }
 
 .dash-top {
@@ -182,15 +183,13 @@ hr {
     background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     border-top-right-radius: 2%;
     border-top-left-radius: 2%;
-    position: relative;
 }
 
 .main-card.insta {
-    /* border-top: 5px solid linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%)); */
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-radius: 0;
+    position: relative;
+    top: 5px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
 
 .main-card.insta>.card-title>img {
@@ -205,7 +204,8 @@ hr {
 /* HOVER STATES */
 
 .main-card:hover,
-.progress-card:hover {
+.progress-card:hover,
+.gradient:hover .main-card {
     background-color: #e1e3f0;
     cursor: pointer;
 }
